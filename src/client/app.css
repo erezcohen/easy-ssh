@@ -1,8 +1,12 @@
-h1 {
-  color: green;
-}
-
 body {
   text-align: center;
   margin: auto;
+}
+
+input {
+  font-size: 3vh;
+}
+
+button {
+  font-size: 3vh;
 }
