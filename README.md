@@ -1,6 +1,34 @@
-# simple-react-full-stack
+# easy-ssh
 
-[![Build Status](https://travis-ci.org/crsandeep/simple-react-full-stack.svg?branch=master)](https://travis-ci.org/crsandeep/simple-react-full-stack)
+A basic fullstack (React + Express) app meant to facilitate the [WeTTY](https://github.com/butlerx/wetty) usage.
+This was setup in a couple of hours using simple-react-full-stack as a boilerplate as part of a Hackathon.
+The app lets the user enter an IP of a desiered server and once clicking 'connect' he is redirected to a web based terminal.
+This is done by spinning up a docker container in the backend running a Wetty server.
+(This is of course an incompelte solution that does not include AuthN, cleaning up recourses etc').
+
+## Setup
+
+```bash
+# Make sure you have node installed version 16.13 or newer.
+
+# Clone the repository
+git clone git@github.com:erezcohen/easy-ssh.git
+
+# Go inside the directory
+cd easy-ssh
+
+# Install dependencies
+yarn (or npm install)
+
+# Start development server
+yarn dev (or npm run dev)
+
+# Build for production
+yarn build (or npm run build)
+
+# Start production server
+yarn start (or npm start)
+```
 
 This is a boilerplate to build a full stack web application using React, Node.js, Express and Webpack. It is also configured with webpack-dev-server, eslint, prettier and babel.
 
